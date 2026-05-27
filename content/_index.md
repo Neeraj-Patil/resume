@@ -3,47 +3,77 @@ title: 'Home'
 date: 2023-10-24
 type: landing
 
-# Note: `username` refers to the user's folder name in `content/authors/`
-
-# Page sections
 sections:
+
+  # HERO / BIOGRAPHY
   - block: biography
     content:
       username: me
-      # Show a call-to-action button under your biography? (optional)
+
       button:
-        text: Download Résumé
-        url: uploads/resume.pdf
+        text: Download Resume
+        url: uploads/Neeraj_Patil_Resume.pdf
+
     design:
       show_status: false
+
       spacing:
-        padding: ['0', '0', '6rem', '0']
+        padding: ['0', '0', '5rem', '0']
+
       banner:
-        # Upload your cover image to the `assets/media/` folder and reference it here
         filename: kalen-emsley-Bkci_8qcdvQ-unsplash.jpg
+
       biography:
-        # Customize the style of your biography text
-        style: 'text-align: justify; font-size: 0.8em;'
-      # Avatar customization
+        style: 'text-align: justify; font-size: 0.95rem; line-height: 1.8;'
+
       avatar:
-        size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-        shape: rounded # Options: circle (default), square, rounded
+        size: large
+        shape: rounded
+
+  # EXPERIENCE
   - block: experience
     content:
+      title: Professional Experience
       username: me
+
     design:
-      # Hugo date format
       date_format: 'January 2006'
-      # Education or Experience section first?
       is_education_first: false
+
+  # PROJECTS
+  - block: collection
+    id: projects
+    content:
+      title: Featured Projects
+      text: >
+        A collection of analytics, automation, ERP, and business intelligence projects focused on solving operational and business challenges through data-driven solutions.
+
+      filters:
+        folders:
+          - project
+
+      count: 6
+
+      sort_by: 'date'
+      sort_ascending: false
+
+    design:
+      view: article-grid
+      columns: '2'
+
+  # SKILLS
   - block: skills
     content:
-      title: Skills & Hobbies
+      title: Technical Skills
       username: me
+
+  # ACHIEVEMENTS / AWARDS
   - block: awards
     content:
-      title: Awards
+      title: Achievements & Leadership
       username: me
+
+  # OPTIONAL LANGUAGES
   - block: languages
     content:
       title: Languages
