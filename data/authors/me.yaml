@@ -36,13 +36,11 @@ links:
     label: GitHub
 
 education:
-  - degree: B.S. Information Technology (Minor: Business)
-    institution: Pennsylvania State University
-    start: 2020-08-01
-    end: 2024-05-01
-    summary: |
-      Focused on information systems, data analytics, and business applications of technology.
-      Coursework included database systems, programming, IT infrastructure, and business operations.
+  - degree: "B.S. Information Technology (Minor: Business)"
+    institution: "Pennsylvania State University"
+    start: "2020-08-01"
+    end: "2024-05-01"
+    summary: "Information systems, data analytics, and business applications of IT."
 
 experience:
   - role: IT Engineer
