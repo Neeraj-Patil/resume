@@ -1,133 +1,133 @@
 schema: hugoblox/author/v1
 slug: me
 is_owner: true
+
 name:
-  display: 吳健雄
-  given: Shiung Wu
-  family: Chien
-  pronunciation: Chien Shiung Wu
-  pronouns: she/her
+  display: Neeraj Patil
+  given: Neeraj
+  family: Patil
+  pronunciation: Neeraj Patil
+  pronouns: he/him
+
 status:
-  icon: "☕️"
-role: Director of Cloud Infrastructure
+  icon: "💻"
+
+role: IT Engineer | Data Analytics & Business Systems
+
 bio: >
-  I am currently Director of Cloud Infrastructure at GenCoin where I am leading
-  teams on edge computing, deep sea data center architecture, and hivemind
-  optimization.
+  IT Engineer with experience in Power BI, SQL analytics, ERP systems, and IT operations.
+  I focus on building data-driven dashboards, improving operational reporting, and supporting enterprise systems through automation and analytics.
+
 affiliations:
-  - name: GenCoin
-    url: https://www.example.com/
+  - name: ISH Foundation
+    url: ""
+
 links:
   - icon: at-symbol
-    url: mailto:your-email@example.com
+    url: mailto:neerajpatil29042002@gmail.com
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/GoOwnable
-  - icon: brands/github
-    url: https://github.com/gcushen
+
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://linkedin.com/in/neeraj-v-patil
+    label: LinkedIn
+
+  - icon: brands/github
+    url: https://github.com/YOUR_GITHUB_USERNAME
+    label: GitHub
+
 education:
-  - degree: PhD Artificial Intelligence
-    institution: Stanford University
-    start: 2016-01-01
-    end: 2020-12-31
+  - degree: B.S. Information Technology (Minor: Business)
+    institution: Pennsylvania State University
+    start: 2020-08-01
+    end: 2024-05-01
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: "Read Thesis"
-      url: "https://example.com"
-  - degree: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    start: 2016-01-01
-    end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+      Focused on information systems, data analytics, and business applications of technology.
+      Coursework included database systems, programming, IT infrastructure, and business operations.
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - degree: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    start: 2016-01-01
-    end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 experience:
-  - role: Director of Cloud Infrastructure
-    org: GenCoin
-    start: 2021-01-01
+  - role: IT Engineer
+    org: ISH Foundation
+    start: 2024-12-01
     summary: |
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - role: Backend Software Engineer
-    org: X
-    start: 2016-01-01
-    end: 2020-12-31
+      - Built and maintained Power BI dashboards for IT resource allocation and operational planning
+      - Performed SQL-based data cleaning, validation, and reporting to support decision-making
+      - Developed IT documentation and reporting standards for support workflows
+      - Provided Level 1 IT support for Windows 11, Microsoft 365, and AV systems
+      - Managed IT asset tracking and reporting automation using Excel
+
+  - role: IT Analyst
+    org: Wolfgang Confectioners
+    start: 2023-05-01
+    end: 2023-12-01
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Developed SQL and Ignition dashboards to monitor production KPIs and bottlenecks
+      - Improved ERP (Deacom) data accuracy by 15% through optimized SQL troubleshooting
+      - Supported barcode scanning systems and manufacturing workflow improvements
+      - Assisted with enterprise system upgrades and IT infrastructure maintenance
+      - Worked cross-functionally with operations teams to improve data reliability
+
 skills:
-  - name: Technical Skills
+  - name: Data Analytics
+    items:
+      - label: Power BI
+        level: 5
+      - label: SQL
+        level: 5
+      - label: Tableau
+        level: 3
+      - label: KPI Development
+        level: 4
+
+  - name: Business Systems
+    items:
+      - label: SAP HANA
+        level: 3
+      - label: Deacom ERP
+        level: 4
+      - label: Power Apps
+        level: 4
+      - label: Power Automate
+        level: 4
+
+  - name: IT & Infrastructure
+    items:
+      - label: Microsoft 365
+        level: 5
+      - label: Windows Server
+        level: 4
+      - label: Active Directory
+        level: 4
+      - label: Entra ID (Azure AD)
+        level: 3
+
+  - name: Programming
     items:
       - label: Python
         level: 4
-      - label: RStudio
+      - label: SQL
         level: 5
-      - label: PyTorch
-        level: 2
-  - name: Hobbies
-    color: "#eeac02"
-    color_border: "#f0bf23"
-    items:
-      - label: Hiking
+      - label: JavaScript
         level: 3
-      - label: Cats
-        level: 5
-      - label: Photography
-        level: 4
+      - label: C++
+        level: 3
+
 languages:
   - name: English
     level: 5
-  - name: Chinese
-    level: 4
-  - name: Portuguese
-    level: 1
+
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: "2023-11-25"
-    awarder: Coursera
-    icon: brands/coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: "2023-07-01"
-    awarder: edX
-    icon: brands/edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: "Object-Oriented Programming in R"
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: "2023-01-21"
-    awarder: datacamp
-    icon: brands/datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+  - title: ERPSim Competition – Top 10 in North America
+    date: "2024-01-01"
+    summary: Ranked 10th in North America showcasing ERP strategy and business process optimization skills.
+
+  - title: FBLA National Conference Finalist
+    date: "2024-01-01"
+    summary: Multiple top 10 finishes in Sales Presentation, Accounting, and Technology categories.
+
+  - title: President Walker Award
+    date: "2024-01-01"
+    summary: Awarded for academic excellence and leadership contributions at Penn State York.
+
+  - title: SGA Campus Service Award
+    date: "2024-01-01"
+    summary: Recognized for contributions to student life and campus engagement.
